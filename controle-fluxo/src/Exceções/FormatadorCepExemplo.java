@@ -3,7 +3,7 @@ package Exceções;
 public class FormatadorCepExemplo {
     public static void main(String[] args) {
         try { 
-            String cepFormatado = formatarCep("23765064");
+            String cepFormatado = formatarCep("2376564");
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
             System.out.println("Digite o CEP corretamente");
